@@ -94,7 +94,7 @@ node src/index.js export --project my-project
 
 ## Project Isolation
 
-`fsrs-memory` supports multiple isolated projects inside a single vault. Each memory is tagged with a `project` field so different applications (for example, `kooOKIE` and `Mingle`) can coexist without leaking context. Tools accept a `project` argument to scope operations and the engine only surfaces records within the requested project by default.
+`fsrs-memory` supports multiple isolated projects inside a single vault. Each memory is tagged with a `project` field so different applications can coexist without leaking context. Tools accept a `project` argument to scope operations and the engine only surfaces records within the requested project by default.
 
 ## Tools (MCP)
 
