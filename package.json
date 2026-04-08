@@ -1,0 +1,47 @@
+{
+  "name": "fsrs-memory",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "fsrs-memory": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "fsrs",
+    "claude",
+    "cursor",
+    "ai",
+    "spaced-repetition"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Local-first AI long-term memory with FSRS scheduling, git-backed snapshots, and semantic diffing for efficient context management.",
+  "keywords": [
+    "mcp-server",
+    "fsrs",
+    "spaced-repetition",
+    "ai-agent-memory",
+    "long-term-memory",
+    "local-first",
+    "git-backup",
+    "semantic-diff",
+    "nodejs",
+    "cli"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "fuse.js": "^7.3.0",
+    "ts-fsrs": "^5.3.2",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
