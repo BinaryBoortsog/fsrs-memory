@@ -1,5 +1,11 @@
 # fsrs-memory
 
+# fsrs-memory
+
+[![npm version](https://img.shields.io/npm/v/fsrs-memory.svg)](https://www.npmjs.com/package/fsrs-memory)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/fsrs-memory/ci.yml)](https://github.com/BinaryBoortsog/fsrs-memory/actions)
+
 A compact, local-first AI long-term memory manager using FSRS scheduling and a Model Context Protocol (MCP) toolset.
 
 Purpose: store, recall, review, and manage developer or application memories with scheduled reviews, soft-delete/purge, git-backed snapshots, and optional Anthropic summarization.
