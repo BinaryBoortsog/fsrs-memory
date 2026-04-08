@@ -48,5 +48,13 @@
   "devDependencies": {
     "jest": "^29.0.0",
     "node-fetch": "^2.6.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BinaryBoortsog/fsrs-memory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BinaryBoortsog/fsrs-memory/issues"
+  },
+  "homepage": "https://github.com/BinaryBoortsog/fsrs-memory#readme"
 }
